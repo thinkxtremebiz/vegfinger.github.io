@@ -1,8 +1,8 @@
 /*
   Theme Name: VegisFarmer
-  Theme URL: 
+  Theme URL:
   Author: Avinash kumar
-  License: 
+  License:
 */
 /*--------------------------------------------------------------
 # General
@@ -876,6 +876,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #51d8ad;
 }
+<<<<<<< HEAD
+.myimage{
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  /* backface-visibility: hidden; */
+}
+.myimage:hover{
+  opacity:0.3;
+  transform: scale(1.2);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+=======
 
 /*Know more button*/
 .button {
@@ -909,3 +927,4 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
+>>>>>>> 5e0649d38357b89447082986cb7c1ab7581ec7e6
