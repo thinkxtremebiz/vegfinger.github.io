@@ -12,7 +12,15 @@ body {
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
-
+.images:hover{
+  opacity: 0.3;
+  transform: scale(1.2);
+  transition: .5s ease;
+}
+.values{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 a {
   color: #2dc997;
 }
@@ -126,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(52, 59, 64, 1);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -867,6 +875,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #51d8ad;
 }
+<<<<<<< HEAD
 .myimage{
   opacity: 1;
   display: block;
@@ -883,3 +892,38 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: auto;
   width: 50%;
 }
+=======
+
+/*Know more button*/
+.button {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#work {
+  border-radius: 10px;
+}
+#work1 {
+  text-align: center;
+}
+
+>>>>>>> 5e0649d38357b89447082986cb7c1ab7581ec7e6
