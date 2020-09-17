@@ -12,6 +12,7 @@ body {
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
+
 .images:hover{
   opacity: 0.3;
   transform: scale(1.2);
