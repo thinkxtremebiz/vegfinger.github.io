@@ -1,8 +1,8 @@
 /*
   Theme Name: VegisFarmer
-  Theme URL: 
+  Theme URL:
   Author: Avinash kumar
-  License: 
+  License:
 */
 /*--------------------------------------------------------------
 # General
@@ -13,6 +13,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.images:hover{
+  opacity: 0.3;
+  transform: scale(1.2);
+  transition: .5s ease;
+}
+.values{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 a {
   color: #2dc997;
 }
@@ -126,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(52, 59, 64, 1);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -766,15 +775,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+#mapSession 
+{
+   background-color: #b3b3b3;
+   
+   
+}
+
 /* Contact Section
 --------------------------------*/
 #contact {
   background: #f7f7f7;
   padding: 80px 0 40px 0;
-}
-#contact #google-map {
-height: 300px;
-margin-bottom: 20px;
 }
 
 #contact .info {
@@ -869,5 +881,54 @@ margin-bottom: 20px;
 
 #contact .form button[type="submit"]:hover {
   background: #51d8ad;
+}
+
+.myimage{
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  /* backface-visibility: hidden; */
+}
+.myimage:hover{
+  opacity:0.3;
+  transform: scale(1.2);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Know more button*/
+.button {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#work {
+  border-radius: 10px;
+}
+#work1 {
+  text-align: center;
 }
 
