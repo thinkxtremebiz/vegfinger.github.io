@@ -775,13 +775,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+#mapSession 
+{
+   background-color: #b3b3b3;
+   
+   
+}
+
 /* Contact Section
 --------------------------------*/
 #contact {
   background: #f7f7f7;
   padding: 80px 0 40px 0;
 }
-
 
 #contact .info {
   color: #333333;
@@ -876,7 +882,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #51d8ad;
 }
-<<<<<<< HEAD
+
 .myimage{
   opacity: 1;
   display: block;
@@ -893,7 +899,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: auto;
   width: 50%;
 }
-=======
 
 /*Know more button*/
 .button {
@@ -927,4 +932,3 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
->>>>>>> 5e0649d38357b89447082986cb7c1ab7581ec7e6
