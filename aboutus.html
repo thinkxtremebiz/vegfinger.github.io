@@ -25,11 +25,7 @@
   <link href="css/style.css" rel="stylesheet">
   <!--logo style-->
   <style>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     .topleft {
 position: absolute;
 top: 0px;
@@ -39,16 +35,7 @@ left: 0px;
       border-radius: 50%;
     }
   </style>
-
-  <!-- =======================================================
-    Theme Name: VegFinger
-
-    Theme URL:
-    Author:
-    License:
-  ======================================================= -->
 </head>
-
 <body>
 
   <!--==========================
@@ -73,55 +60,15 @@ left: 0px;
   </header><!-- #header -->
   </div>
   <!-- tab -->
-<div class="container-fluid" style="margin-top: 100px;">   
-<ul class=" nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" data-toggle="tab" href="#ourvalues">Our Values</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#how">How We work</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#whyus">Why Us?</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#steporder">Step Order</a>
-  </li>
-</ul>
-</div>
-  <ul class="nav nav-tabs" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" role="tab" href="#home">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" role="tab" href="#menu1">Menu 1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" role="tab"  href="#menu2">Menu 2</a>
-    </li>
+<ul class="nav nav-tabs" style="margin-top: 100px;">
+    <li><a href="#a" data-toggle="tab">Our Values</a></li>
+    <li><a href="#c" data-toggle="tab">Why Us?</a></li>
+    <li><a href="#d" data-toggle="tab">How we Work</a></li>
   </ul>
-
-  <!-- Tab panes -->
+  <!-- our values-->
   <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br>
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div id="menu1" class="container tab-pane"><br>
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="container tab-pane"><br>
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
-  </div>
-</div>
-
-<!-- end of tab -->
-<!--about us-->
-<div class="tab-content">
-<section class="section-2 tab-pane show container active" role="tabpanel" id="ourvalues">
+    <div class="tab-pane active" id="a">
+      <section class="section-2 ourvalues">
       <h1 style="text-align: center">Our Values</h1>
       <div class="team row d-flex align-items-stretch">
         <div class="col-md-4 col-sm-12 text-center">
@@ -175,140 +122,11 @@ left: 0px;
         </div>
       </div>
     </section>
-
-
-<section id="how" class="tab-pane container fade" role="tabpanel">
-    <h1 style="text-align:center;">How We Work</h1>
-    <div class="team row">
-      <div class="col-md-3 col-12 text-center">
-          <div class="card mr-2 d-inline-block shadow-lg">
-              <div class="card-img-top">
-                <img src="img/you place an order.jpg"  class="img-fluid border-radius p-4 myimage" alt="" id="round_img" width="300" height="300">
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">You pl ace an order</h3>
-                <p class="card-text">
-                  Place an order with us
-                </p>
-
-              </div>
-            </div>
-      </div>
-
-      <div class="col-md-3 col-12 text-center">
-          <div class="card mr-2 d-inline-block shadow-lg">
-              <div class="card-img-top">
-                <img src="img/we pick.jpg" class="img-fluid border-radius p-4 myimage" alt="" id="round_img" width="300" height="300">
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">We pick</h3>
-                <p class="card-text">
-                  Our Farmers will pick the vegetables based on the requirements/ Order receipt
-                </p>
-
-              </div>
-            </div>
-      </div>
-      <div class="col-md-3 col-12 text-center">
-          <div class="card mr-2 d-inline-block shadow-lg">
-              <div class="card-img-top">
-                <img src="img/we package.jpg" class="img-fluid border-radius p-4 myimage" alt="" id="round_img" width="300" height="300">
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">We Pack</h3>
-                <p class="card-text">
-                  Picked vegetables will be packed at our collection center
-                </p>
-              </div>
-            </div>
-      </div>
-      <div class="col-md-3 col-12 text-center">
-          <div class="card mr-2 d-inline-block shadow-lg">
-              <div class="card-img-top">
-                <img src="img/we_deliver.jpg" class="img-fluid border-radius p-4 myimage" alt="" id="round_img" width="300" height="300">
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">We Deliver</h3>
-                <p class="card-text">
-                  We will deliver the vegetables to the desired location
-                </p>
-              </div>
-            </div>
-      </div>
-</div>
-</section>
-
-<section id="steporder" class="tab-pane container fade">
-      <h1 style="text-align:center;">Step Order</h1>
-      <div class="team row d-flex align-items-stretch">
-        <div class="col-md-3 col-sm-12 text-center">
-          <div class="card mr-2 d-inline-block shadow-lg">
-            <div class="card-img-top">
-              <img src="img/you place an order.jpg" class="img-fluid border-radius p-4 myimage" alt="">
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">You place an order</h3>
-              <p class="card-text">
-                Place an order with us
-              </p>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-sm-12 text-center">
-          <div class="card mr-2 d-inline-block shadow-lg">
-            <div class="card-img-top">
-              <img src="img/we pick.jpg" class="img-fluid border-radius p-4 myimage" alt="">
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">We pick</h3>
-              <p class="card-text">
-                Our Farmers will pick the vegetables based on the requirements/ Order receipt
-              </p>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center">
-          <div class="card mr-2 d-inline-block shadow-lg">
-            <div class="card-img-top">
-              <img src="img/we package.jpg" class="img-fluid border-radius p-4 myimage" alt="">
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">We Pack</h3>
-              <p class="card-text">
-                Picked vegetables will be packed at our collection center
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center">
-          <div class="card mr-2 d-inline-block shadow-lg">
-            <div class="card-img-top">
-              <img src="img/we deliver.jpg" class="img-fluid border-radius p-4 myimage" alt="">
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">We Deliver</h3>
-              <p class="card-text">
-                We will deliver the vegetables to the desired location
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-
-
-
-
-
-
-
-    <!-- ############################### -->
-
-    <section id="whyus">
+    </div><!-- our values end -->
+    
+    <!--why us-->
+    <div class="tab-pane" id="c">
+       <section id="whyus">
       <div class="cover">
         <div class="overlay"></div>
         <div class="content text-center">
@@ -421,39 +239,73 @@ left: 0px;
       </div>
 
     </section>
-    <!--==========================
-      Contact Section
-    ============================-->
+    </div><!--end of why us ->
+    <!--step order-->
+    <div class="tab-pane" id="d">
+      <section id="how">
+      <h1 style="text-align:center;">Step Order</h1>
+      <div class="team row d-flex align-items-stretch">
+        <div class="col-md-3 col-sm-12 text-center">
+          <div class="card mr-2 d-inline-block shadow-lg">
+            <div class="card-img-top">
+              <img src="img/you place an order.jpg" class="img-fluid border-radius p-4 myimage" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">You place an order</h3>
+              <p class="card-text">
+                Place an order with us
+              </p>
 
-  </main>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-md-3 col-sm-12 text-center">
+          <div class="card mr-2 d-inline-block shadow-lg">
+            <div class="card-img-top">
+              <img src="img/we pick.jpg" class="img-fluid border-radius p-4 myimage" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">We pick</h3>
+              <p class="card-text">
+                Our Farmers will pick the vegetables based on the requirements/ Order receipt
+              </p>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-<script>
-  var typed = new Typed('#animate', {
-    strings: ["Grow","Produce","Pack","Deliver","are Veg Finger"],
-    typeSpeed: 75,
-    backSpeed: 75,
-    loop: true
-  });
-</script>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <div class="card mr-2 d-inline-block shadow-lg">
+            <div class="card-img-top">
+              <img src="img/we package.jpg" class="img-fluid border-radius p-4 myimage" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">We Pack</h3>
+              <p class="card-text">
+                Picked vegetables will be packed at our collection center
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <div class="card mr-2 d-inline-block shadow-lg">
+            <div class="card-img-top">
+              <img src="img/we deliver.jpg" class="img-fluid border-radius p-4 myimage" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">We Deliver</h3>
+              <p class="card-text">
+                We will deliver the vegetables to the desired location
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div><!--end of step order-->
+  </div>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
