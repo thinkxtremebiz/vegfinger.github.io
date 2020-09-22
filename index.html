@@ -59,9 +59,8 @@ left: 0px;
         <ul class="nav-menu">
           <li class="menu-active"><a href="#farmer">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li class="menu-has-children"><a href="">Buy/Sell</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#buy">Buy</a></li>
+          <li><a href="#contact">Connect with Us</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
       <div class="topleft">
@@ -74,7 +73,9 @@ left: 0px;
   ============================-->
   <section id="farmer">
     <div class="farmer-container">
-      <h1>Welcome to VegFinger</h1>
+      <h1>
+      We  <span id="animate"></span>
+      </h1>
       <h2></h2>
       <!--a href="#about" class="btn-get-started"></a-->
     </div>
@@ -83,7 +84,7 @@ left: 0px;
 
 
 
-
+<!--about us-->
 
 <main id="main">
 <section class=section-1>
@@ -182,14 +183,14 @@ left: 0px;
 
 <section id="how">
     <h1 style="text-align:center;">How We Work</h1>
-    <div class="team row ">
+    <div class="team row">
       <div class="col-md-3 col-12 text-center">
           <div class="card mr-2 d-inline-block shadow-lg">
               <div class="card-img-top">
                 <img src="img/you place an order.jpg"  class="img-fluid border-radius p-4 myimage" alt="" id="round_img" width="300" height="300">
               </div>
               <div class="card-body">
-                <h3 class="card-title">You place an order</h3>
+                <h3 class="card-title">You pl ace an order</h3>
                 <p class="card-text">
                   Place an order with us
                 </p>
@@ -405,7 +406,7 @@ left: 0px;
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact">
+<section id="contact">
 
       <div class="container wow fadeInUp">
         <div class="section-header">
@@ -478,7 +479,6 @@ left: 0px;
   </main>
 
 
-
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
@@ -497,6 +497,14 @@ left: 0px;
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script>
+  var typed = new Typed('#animate', {
+    strings: ["Grow","Produce","Pack","Deliver","are Veg Finger"],
+    typeSpeed: 75,
+    backSpeed: 75,
+    loop: true
+  });
+</script>
 </body>
 </html>
