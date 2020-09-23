@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>VegFinger</title>
@@ -7,12 +8,15 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
-  <!--Favicons --> 
+  <!--Favicons -->
   <link href="img/logo1.jpg" rel="icon">
   <link href="img/logo.jpg" rel="apple-touch-icon">
-  
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
+    rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,18 +30,18 @@
   <!--logo style-->
   <style>
     .topleft {
-position: absolute;
-top: 0px;
-left: 16px;
+      position: absolute;
+      top: 0px;
+      left: 16px;
     }
   </style>
 
   <!-- =======================================================
     Theme Name: VegFinger
-  
-    Theme URL: 
-    Author: 
-    License: 
+
+    Theme URL:
+    Author:
+    License:
   ======================================================= -->
 </head>
 
@@ -48,35 +52,18 @@ left: 16px;
   ============================-->
   <header id="header">
     <div class="container">
-      </div>
+    </div>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#farmer">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-      <div class="topleft">
-        <img src="img/vf_logo.png" width="180" height="80">
+    <nav id="nav-menu-container">
+      <ul class="nav-menu">
+        <li class="menu-active"><a href="#">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="#buy">Buy</a></li>
+        <li><a href="#contact">Connect with Us</a></li>
+      </ul>
+    </nav><!-- #nav-menu-container -->
+    <div class="topleft">
+      <img src="img/vf_logo.png" width="180" height="80">
     </div>
   </header><!-- #header -->
 
@@ -85,55 +72,45 @@ left: 16px;
   ============================-->
   <section id="farmer">
     <div class="farmer-container">
-      <h1>Welcome to VegFinger</h1>
+      <h1>
+        We <span id="animate"></span>
+      </h1>
       <h2></h2>
-      <a href="#about" class="btn-get-started"></a>
+      <!--a href="#about" class="btn-get-started"></a-->
     </div>
   </section><!-- #farmer -->
 
+
+
+
+  <!--about us-->
+
   <main id="main">
-
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container">
-        <div class="row about-container">
-
-          <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">About Us</h2>
-            <p>
-              VegFinger is a group created by Farmers, 
-              to sell their locally grown Vegetables and Fruits.
-               Created this to serve the best quality vegetables and fruits to Retailers and customers directly.
-                Quality assured and pries are the best in the market.
-            </p>
-
-            <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href=""></a></h4>
-              <p class="description"></p>
+    <section class=section-1 id="about">
+      <div class="container text-center">
+        <div class="row mergerow">
+          <div class="col-md-6 col-sm-12">
+            <div class="logomerge">
+              <img src="img/logo1.jpg" alt="logo" class="" />
             </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href=""></h4>
-              <p class="description"></p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href=""></a></h4>
-              <p class="description"></p>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="panel text-left">
+              <h1>About Us</h1>
+              <p class="pt-4">
+                VegFinger is a group created by Farmers, to sell their locally grown Vegetables and Fruits. Created this
+                to serve the best quality vegetables and fruits to Retailers and customers directly. Quality assured and
+                pries are the best in the market.
+              </p>
+              <button class="button button1 btn btn-primary"><a href="aboutus.html" style="text-decoration: none;">
+                  Know more</a></button>
             </div>
 
           </div>
-
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
-
       </div>
-    </section><!-- #about -->
+    </section>
+
 
     <!--==========================
       Facts Section
@@ -146,106 +123,136 @@ left: 16px;
         </div>
         <div class="row counters">
 
-  				<div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">232</span>
             <p>Clients</p>
-  				</div>
+          </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">521</span>
             <p>Farmers</p>
-  				</div>
+          </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">1,463</span>
             <p>Distributer</p>
-  				</div>
+          </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">15</span>
             <p>Workers</p>
-  				</div>
-
-  			</div>
-
-      </div>
-    </section><!-- #facts -->
-
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h3 class="section-title">Contact</h3>
-         </div>
-      </div>
-
-      
-      
-
-      <div class="container wow fadeInUp mt-5">
-        <div class="row justify-content-center">
-
-          <div class="col-lg-3 col-md-4">
-
-            <div class="info">
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p>manjeeshtg@gmail.com</p>
-              </div>
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+91 9902200024</p>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.facebook.com/VegFinger" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- #contact -->
+    </section><!-- #facts -->
+
+    <!-- <section id="about">
+      <div class="container">
+        <h2 style="text-align:center;"><b>Find Us</b></h2>
+        <div class="row values">
+          <div style=" width: 70% ;display: block; margin-left: auto; margin-right: auto;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497245.4805743878!2d77.93359397214027!3d13.179396353376493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badeae91c4f0bb3%3A0xc70f84f1e54a3562!2sKolar%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1600437795841!5m2!1sen!2sin"
+              width="100%" height="100%" frameborder="0" style="border: 10px solid black;" allowfullscreen=""
+              aria-hidden="false" tabindex="0"></iframe></div>
+        </div>
+        <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+
+      </div>
+    </section> -->
+    <section id="about">
+      <div class="container">
+        <h2 style="text-align:center;"><b>Find Us</b></h2>
+        <a target="_blank"
+          href="https://www.google.com/maps/place/Kolar,+Karnataka/@13.1298197,78.0910555,13z/data=!3m1!4b1!4m5!3m4!1s0x3badf08b9595accd:0x43ef935427fdf3d0!8m2!3d13.1362143!4d78.1290986">
+          <img class="map" alt="Map" src="img/map.png" style="border: 10px solid black;">
+        </a>
+      </div>
+    </section>
+    </div>
+    <!--end of collpasable button-->
+
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <footer>
+      <section id="contact">
+
+        <div class="container wow fadeInUp">
+          <div class="section-header">
+            <h3 class="section-title">Contact</h3>
+          </div>
+        </div>
+
+
+
+
+        <div class="container wow fadeInUp mt-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+
+              <div class="info">
+                <div>
+                  <h5 class="text-center">Address:</h5>
+                  <p class="text-center"> Kolar Farms, Kolar
+                    Karnataka, India</p>
+                </div>
+              </div>
+
+
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+
+              <div class="info other">
+                <ul>
+                  <li class="menu-active"><a href="#farmer">Home</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#blog">Blog</a></li>
+                  <li class="menu-has-children"><a href="">Buy/Sell</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
+                </ul>
+              </div>
+
+
+
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-12">
+
+              <div class="info other">
+                <div>
+                  <i class="fa fa-envelope"></i>
+                  <p>manjeeshtg@gmail.com</p>
+                </div>
+
+                <div>
+                  <i class="fa fa-phone"></i>
+                  <p>+91 9902200024</p>
+                </div>
+              </div>
+
+              <div class="social-links other">
+                <a href="https://www.facebook.com/VegFinger" target="_blank" class="facebook"><i
+                    class="fa fa-facebook"></i></a>
+                <a href="" target="_blank" class="fa fa-youtube" style="font-size:25px;"></a>
+                <a href="#" class="linkedin" target="blank"><i class="fa fa-linkedin"></i></a>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </section>
+    </footer><!-- #contact -->
 
   </main>
 
- 
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
@@ -265,6 +272,15 @@ left: 16px;
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script>
+    var typed = new Typed('#animate', {
+      strings: ["Grow", "Produce", "Pack", "Deliver", "are Veg Finger"],
+      typeSpeed: 75,
+      backSpeed: 75,
+      loop: true
+    });
+  </script>
 </body>
+
 </html>
