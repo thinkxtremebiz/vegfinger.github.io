@@ -13,6 +13,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+
+
 .topleft img {
   margin-top: -38%;
   height: 280px;
@@ -1010,7 +1012,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   top: 7vmin;
   left: -18vmin;
-  background: white;
+  color: white;
+  background: #2dca98;
   border-radius: 3px;
   text-align: left;
   padding: 13vmin 5vmin 20vmin 10vmin;
@@ -1020,12 +1023,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-1 .row .col-md-6 .panel h1 {
   font-weight: bold;
+  color: white;
   padding: 0.4em 0;
   font-size: 2em;
 }
 
 .section-1 .row .col-md-6 .panel p {
-  font-size: 0.9em;
+  color: white !important;
+  font-size: 1em;
   color: rgba(0, 0, 0, 0.9);
 }
 
@@ -1079,8 +1084,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .map {
-  height: 100%;
-  width: 100%;
+  height: 20%;
+  width: 20%;
 }
 
 #whyus h1 {
@@ -1111,8 +1116,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   }
 
+  .topleft img {
+    margin-left: -23%;
+  }
+
   .map {
-    height: 100%;
+    height: 50%;
     width: 100%;
   }
 
@@ -1149,8 +1158,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .map {
     margin-left: 14%;
-    height: 100%;
-    width: 70%;
+    height: 50%;
+    width: 65%;
+  }
+
+  .topleft img {
+    margin-left: -23%;
   }
 
   .cover {
@@ -1185,11 +1198,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 5%;
   }
 
+  .topleft img {
+    margin-left: -23%;
+  }
 
 
   .map {
     margin-left: 14%;
-    height: 100%;
+    height: 50%;
     width: 80%;
   }
 
@@ -1259,7 +1275,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .map {
     margin-left: 14%;
-    height: 100%;
+    height: 50%;
     width: 80%;
   }
 
@@ -1323,8 +1339,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .map {
     margin-left: 14%;
-    height: 100%;
+    height: 50%;
     width: 80%;
+    margin-bottom: 20%;
   }
 
 
