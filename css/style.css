@@ -13,6 +13,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* .topleft img {
+  margin-top: -38%;
+  height: 280px;
+  width: 300px;
+} */
+
 .images:hover {
   opacity: 0.3;
   transform: scale(1.2);
@@ -1172,13 +1178,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .long-div {
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
+
+
 
   .map {
     margin-left: 14%;
     height: 100%;
-    width: 70%;
+    width: 80%;
   }
 
   .mergerow {
@@ -1193,6 +1202,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 5%;
   }
 
+  #whyus .col-sm-12 .card {
+    width: 80%;
+  }
+
   .section-1 .row .col-sm-12 .panel {
     margin-top: -3vmin;
     position: absolute;
@@ -1202,7 +1215,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 90%;
   }
 
+
+
   .cover {
+    background: white;
     height: 650vmin;
   }
 
@@ -1221,8 +1237,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow-x: hidden;
   }
 
+  /* .topleft img {
+    margin-left: -23%;
+  } */
+
   .long-div {
     margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #whyus .col-sm-12 .card {
+    width: 80%;
   }
 
   .mergerow {
@@ -1232,7 +1257,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .map {
     margin-left: 14%;
     height: 100%;
-    width: 70%;
+    width: 80%;
   }
 
 
@@ -1275,19 +1300,28 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 100%;
     overflow-x: hidden;
   }
+/* 
+  .topleft img {
+    margin-left: -23%;
+  } */
 
   .long-div {
     margin-top: 10%;
+    margin-bottom: 10%;
   }
 
   .mergerow {
     padding-bottom: 22em;
   }
 
+  #whyus .col-sm-12 .card {
+    width: 80%;
+  }
+
   .map {
     margin-left: 14%;
     height: 100%;
-    width: 70%;
+    width: 80%;
   }
 
 
@@ -1327,13 +1361,23 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow-x: hidden;
   }
 
+  /* .topleft img {
+    margin-left: -23%;
+  } */
+
+  #whyus .col-sm-12 .card {
+    width: 80%;
+    margin-top: 5%;
+  }
 
   .cover {
     height: 800vmin;
+
   }
 
   .long-div {
     margin-top: 10%;
+    margin-bottom: 10%;
   }
 
   .mergerow {
@@ -1343,7 +1387,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .map {
     margin-left: 14%;
     height: 50%;
-    width: 70%;
+    width: 80%;
   }
 
 
