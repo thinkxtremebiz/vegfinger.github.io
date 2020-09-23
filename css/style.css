@@ -13,11 +13,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* .topleft img {
+.topleft img {
   margin-top: -38%;
   height: 280px;
   width: 300px;
-} */
+}
 
 .images:hover {
   opacity: 0.3;
@@ -1237,9 +1237,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow-x: hidden;
   }
 
-  /* .topleft img {
+  .topleft img {
     margin-left: -23%;
-  } */
+  }
 
   .long-div {
     margin-top: 10%;
@@ -1300,10 +1300,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 100%;
     overflow-x: hidden;
   }
-/* 
+
   .topleft img {
     margin-left: -23%;
-  } */
+  }
 
   .long-div {
     margin-top: 10%;
@@ -1361,9 +1361,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow-x: hidden;
   }
 
-  /* .topleft img {
+  .topleft img {
     margin-left: -23%;
-  } */
+  }
 
   #whyus .col-sm-12 .card {
     width: 80%;
