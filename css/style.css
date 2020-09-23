@@ -19,6 +19,13 @@ body {
   width: 300px;
 }
 
+.topleft2 img {
+  margin-top: -28%;
+  height: 200px;
+  width: 300px;
+}
+
+
 .images:hover {
   opacity: 0.3;
   transform: scale(1.2);
