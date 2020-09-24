@@ -42,7 +42,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #2dca98;
+  color: black;
   outline: none;
   text-decoration: none;
 }
@@ -839,7 +839,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info i {
-  font-size: 32px;
+  font-size: 1.4em;
   color: #2dc997;
   float: left;
 }
@@ -960,7 +960,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .button {
   border: none;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 1px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -989,8 +989,33 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
+.phone {
+  background: #139675 !important;
+  color: white !important;
+}
 
+.other {
+  font-size: 1em;
+}
 
+.other .button1 {
+  display: inline-block;
+  font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+
+  padding: .8em 1.4em;
+  padding-right: 4.7em;
+  background: #009ED8;
+  border: none;
+  color: white !important;
+}
+
+.other .button1 i {
+  color: white !important;
+}
+
+.other i:hover {
+  color: black !important;
+}
 
 
 .section-1 {
