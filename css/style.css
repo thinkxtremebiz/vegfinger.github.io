@@ -1160,7 +1160,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .cover {
-    height: 70vmin;
+    height: 100vmin;
   }
 
   #whyus {
@@ -1192,7 +1192,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .cover {
-    height: 150vmin;
+    height: 250vmin;
   }
 
   .mergerow {
@@ -1269,13 +1269,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .cover {
     background: white;
-    height: 650vmin;
+    height: 700vmin;
   }
 
   #contact .other {
     padding-left: 34%;
     padding-bottom: 4%;
   }
+
 
 }
 
@@ -1333,7 +1334,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .cover {
-    height: 700vmin;
+    height: 750vmin;
   }
 
   #contact .other {
@@ -1395,7 +1396,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .cover {
-    height: 750vmin;
+    height: 850vmin;
   }
 
   #contact .other {
@@ -1422,7 +1423,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .cover {
-    height: 800vmin;
+    height: 1050vmin;
 
   }
 
