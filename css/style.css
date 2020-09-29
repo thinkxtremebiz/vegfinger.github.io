@@ -1426,3 +1426,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 50vmin;
   }
 }
+
+.fixed-images{
+  width: 100%;
+  height: 60vh;
+  background-image: url(../img/chilli.jpg);
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+}
