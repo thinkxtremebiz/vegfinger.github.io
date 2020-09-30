@@ -2,7 +2,7 @@ jQuery(document).ready(function ($) {
   $('#header').addClass('header-fixed');
   $('.back-to-top').fadeIn('slow');
   // Header fixed and Back to top button
- 
+
   $('.back-to-top').click(function () {
     $('html, body').animate({
       scrollTop: 0
@@ -119,5 +119,5 @@ jQuery(document).ready(function ($) {
   });
 
   // custom code
-
+  AOS.init();
 });
