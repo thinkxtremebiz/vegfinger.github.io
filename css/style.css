@@ -21,8 +21,9 @@ body {
   width: 300px;
 }
 
-
-
+.verticalline {
+  border-left: solid #00000099;
+}
 
 .images:hover {
   opacity: 0.3;
