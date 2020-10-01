@@ -106,11 +106,19 @@ h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+
+.btn-phone a{
+  font-weight: bold;
+}
+
 .btn-phone a:hover{
   color:  #2dc997;
 }
+.info-other button{
+  background-color: #00000033;
+}
 .info-other button:hover{
-  background-color: #00000099;
+  background-color: #000000AA
 }
 
 /* Prelaoder */
