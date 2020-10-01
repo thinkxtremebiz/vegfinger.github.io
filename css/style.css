@@ -37,6 +37,12 @@ blockquote h3:before {
   left: -0.5em;
   font-family: 'Georgia';
 }
+.quote{
+
+margin-top: auto; 
+margin-bottom: auto;
+}
+
 
 blockquote h3:after {
   content: "\201D";
@@ -100,6 +106,12 @@ h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+.btn-phone a:hover{
+  color:  #2dc997;
+}
+.info-other button:hover{
+  background-color: #00000099;
+}
 
 /* Prelaoder */
 #preloader {
@@ -130,6 +142,9 @@ h6 {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  .quote{
+    margin-top: 5rem;
   }
 }
 
