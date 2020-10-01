@@ -115,7 +115,7 @@ h6 {
   color:  #2dc997;
 }
 .info-other button{
-  background-color: #00000033;
+  background-color: #00000011;
 }
 .info-other button:hover{
   background-color: #000000AA
@@ -159,6 +159,8 @@ h6 {
 .card {
   /* box-shadow: 5px 5px #88888899; */
   border-radius: 0.7em;
+  height: 100%;
+  width: 100%;
   box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.6);
 
 }
@@ -220,6 +222,13 @@ h6 {
 
   #header #logo img {
     max-height: 40px;
+  }
+}
+
+
+@media (min-width: 769px) {
+  .footercontent{
+         margin-left: 55em;;
   }
 }
 
@@ -1146,11 +1155,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .col-md-4 .card {
   width: 70%;
+  height: 100%;
 
 }
 
 .col-md-3 .card {
   width: 80%;
+  height: 100%;
 }
 
 .col-sm-12 {
@@ -1298,10 +1309,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media only screen and (max-width:1146px) {
+@media only screen and (max-width:1246px) {
   .section-1 .row .col-md-8 .panel {
 
     left: -23vmin;
+
+  }
+}
+@media only screen and (max-width:1120px) {
+  .section-1 .row .col-md-8 .panel {
+
+    left: -20vmin;
 
   }
 }
@@ -1480,7 +1498,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .mergerow {
-    padding-bottom: 45em;
+    padding-bottom: 55em;
   }
 
   #contact .other {
@@ -1535,7 +1553,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .mergerow {
-    padding-bottom: 45em;
+    padding-bottom: 60em;
   }
 
   #contact .other {
@@ -1556,4 +1574,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-position: top center;
   background-size: cover;
   position: relative;
+}
+.list-inline-item a{
+  color: #666666;
+}
+
+.list-inline-item a:hover{
+  color: #2DC997;
 }
