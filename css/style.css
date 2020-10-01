@@ -1082,7 +1082,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-1 .row .col-md-8 .panel {
   position: absolute;
   top: 7vmin;
-  left: -18vmin;
+  left: -20vmin;
   color: white;
   margin-left: 7%;
   background: #2dca98;
@@ -1235,7 +1235,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media only screen and (max-width:1440px) {
+@media only screen and (max-width:1468px) {
 
   html,
   body {
@@ -1258,9 +1258,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-bottom: 22em;
   }
 
-  .section-1 .row .col-md-6 .panel {
+  .section-1 .row .col-md-8 .panel {
     top: 7vmin;
-    left: -16vmin;
+    left: -26vmin;
     z-index: 1;
   }
 
@@ -1272,6 +1272,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #whyus {
     margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:1146px) {
+  .section-1 .row .col-md-8 .panel {
+
+    left: -23vmin;
+
+  }
+}
+
+@media only screen and (max-width:946px) {
+  .section-1 .row .col-md-8 .panel {
+
+    left: -20vmin;
+
   }
 }
 
