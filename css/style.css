@@ -148,6 +148,9 @@ h6 {
 }
 
 @media (max-width: 768px) {
+  .info-other{
+    text-align: center;
+  }
   .back-to-top {
     bottom: 15px;
   }
@@ -226,11 +229,7 @@ h6 {
 }
 
 
-@media (min-width: 769px) {
-  .footercontent{
-         margin-left: 55em;;
-  }
-}
+
 
 #header.header-fixed {
   background: #ffffff;
@@ -1153,6 +1152,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 0.9em;
 }
 
+/* .col-md-2 .card{
+  height: 10% !important;
+  width: 100% !important;
+} */
+
 .col-md-4 .card {
   width: 70%;
   height: 100%;
@@ -1260,13 +1264,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
 }
+.long-div .card{
+  height: 100%;
+}
 
 @media only screen and (max-width:2800px) {
 
-  .long-div {
+  .long-div{
     margin-top: 50%;
-    margin-bottom: 5%;
+    margin-bottom: 40% !important;
+    
   }
+  
 }
 
 @media only screen and (max-width:1468px) {
@@ -1276,7 +1285,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 100%;
     overflow-x: hidden;
   }
-
+  .long-div {
+    margin-top: 50%;
+    margin-bottom: 40% !important;
+    
+  }
   .map {
     margin-left: 14%;
     height: 50%;

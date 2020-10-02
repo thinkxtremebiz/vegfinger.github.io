@@ -1,3 +1,0 @@
-Veg finger website
-
-thinkxtremebiz
