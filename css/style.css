@@ -1137,16 +1137,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: rgba(0, 0, 0, 0.9);
 }
 
-.long-div {
-  margin-top: 100%;
-}
+
 
 .card-title {
   font-size: 1.5em;
 }
 
 
-
+.long-div {
+  margin-top: 50%;
+  height: 50%;
+}
+.long-div .card{
+  height: 100%;
+}
 .short-div,
 .long-div {
   font-size: 0.9em;
@@ -1248,12 +1252,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 100%;
   }
 
-  .long-div {
-    margin-top: 50%;
-    margin-bottom: 5%;
-  }
-
-
+ 
   .mergerow {
     padding-bottom: 15em;
   }
@@ -1264,17 +1263,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
 }
-.long-div .card{
-  height: 100%;
-}
+
 
 @media only screen and (max-width:2800px) {
 
-  .long-div{
-    margin-top: 50%;
-    margin-bottom: 40% !important;
-    
-  }
+ 
   
 }
 
@@ -1285,11 +1278,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 100%;
     overflow-x: hidden;
   }
-  .long-div {
-    margin-top: 50%;
-    margin-bottom: 40% !important;
-    
-  }
+ 
   .map {
     margin-left: 14%;
     height: 50%;
