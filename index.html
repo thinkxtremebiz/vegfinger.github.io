@@ -37,9 +37,25 @@
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-    $(document).ready(function () {
+   
+   $(document).ready(function () {
+      var a = 0;
       $("#myslider").click(function () {
-        $("#slideranswer").slideToggle("slow");
+        if (a % 2 == 0) {
+          $("#slideranswer").slideToggle("slow");
+          $('html,body').animate({
+              scrollTop: $("#slideranswer").offset().top
+            },
+            'slow');
+          a = a + 1;
+        } else {
+          $("#slideranswer").slideToggle("slow");
+          $('html,body').animate({
+              scrollTop: $("#about").offset().top
+            },
+            'slow');
+          a = a + 1;
+        }
         $("#slideranswer").ready(function () {
           AOS.init();
         });
@@ -119,9 +135,9 @@
                     to serve the best quality vegetables and fruits to Retailers and customers directly. Quality assured
                     and
                     pries are the best in the market.
-                  </p><a href="#slideranswer">
+                  </p>
                   <button class="button button1 btn btn-primary" id="myslider">
-                    Know more</button></a>
+                    Know more</button>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-5 col-sm-12">
