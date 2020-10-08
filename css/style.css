@@ -37,10 +37,11 @@ blockquote h3:before {
   left: -0.5em;
   font-family: 'Georgia';
 }
-.quote{
 
-margin-top: auto; 
-margin-bottom: auto;
+.quote {
+
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 
@@ -107,17 +108,19 @@ h6 {
   padding: 0;
 }
 
-.btn-phone a{
+.btn-phone a {
   font-weight: bold;
 }
 
-.btn-phone a:hover{
-  color:  #2dc997;
+.btn-phone a:hover {
+  color: #2dc997;
 }
-.info-other button{
+
+.info-other button {
   background-color: #00000011;
 }
-.info-other button:hover{
+
+.info-other button:hover {
   background-color: #000000AA
 }
 
@@ -148,13 +151,15 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  .info-other{
+  .info-other {
     text-align: center;
   }
+
   .back-to-top {
     bottom: 15px;
   }
-  .quote{
+
+  .quote {
     margin-top: 5rem;
   }
 }
@@ -1144,13 +1149,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-.long-div {
-  margin-top: 50%;
-  height: 50%;
-}
-.long-div .card{
-  height: 100%;
-}
 .short-div,
 .long-div {
   font-size: 0.9em;
@@ -1252,7 +1250,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 100%;
   }
 
- 
+
   .mergerow {
     padding-bottom: 15em;
   }
@@ -1266,9 +1264,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 @media only screen and (max-width:2800px) {
+  .long-div {
+    margin-top: 50%;
+    height: 60%;
+  }
 
- 
-  
+  .long-div .card {
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width:1468px) {
@@ -1278,7 +1281,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 100%;
     overflow-x: hidden;
   }
- 
+
   .map {
     margin-left: 14%;
     height: 50%;
@@ -1318,6 +1321,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   }
 }
+
 @media only screen and (max-width:1120px) {
   .section-1 .row .col-md-8 .panel {
 
@@ -1334,6 +1338,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+
+
+
 @media only screen and (max-width:768px) {
 
   html,
@@ -1344,7 +1351,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .long-div {
     margin-top: 5%;
+    height: 100%;
     margin-bottom: 5%;
+  }
+
+  .long-div .card {
+    height: 100%;
+  }
+
+  .short-div {
+    margin-top: 5%;
   }
 
   .topleft img {
@@ -1404,10 +1420,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: -23%;
   }
 
-  .long-div {
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
+
 
   #whyus .col-sm-12 .card {
     width: 80%;
@@ -1465,10 +1478,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: -23%;
   }
 
-  .long-div {
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
 
 
 
@@ -1528,10 +1537,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-  .long-div {
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
 
 
   .map {
@@ -1577,10 +1582,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   position: relative;
 }
-.list-inline-item a{
+
+.list-inline-item a {
   color: #666666;
 }
 
-.list-inline-item a:hover{
+.list-inline-item a:hover {
   color: #2DC997;
 }
