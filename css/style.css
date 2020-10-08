@@ -109,19 +109,19 @@ h6 {
 }
 
 .btn-phone a {
-  font-weight: bold;
+  color: black;
 }
 
 .btn-phone a:hover {
-  color: #2dc997;
+  color: white;
 }
 
 .info-other button {
-  background-color: #00000011;
+  background-color: #D0F0C0;
 }
 
 .info-other button:hover {
-  background-color: #000000AA
+  background-color: #000000AA;
 }
 
 /* Prelaoder */
@@ -1235,7 +1235,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 1.3em;
 }
 
+#contact .btn {
+  color: black;
+}
 
+.navigatelist a {
+  color: black;
+}
+
+.navigatelist a:hover {
+  color: #47ca99;
+}
 
 /*    --------- Mobile-Responsive-Section --------- */
 
