@@ -1229,6 +1229,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: none;
 }
 
+#contact {
+  background: #B7FFBF;
+  background: #D0F0C0;
+  font-size: 1.3em;
+}
+
+
+
 /*    --------- Mobile-Responsive-Section --------- */
 
 
