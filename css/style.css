@@ -24,7 +24,7 @@ blockquote {
 }
 
 blockquote h3 {
-  font-size: 21px;
+  font-size: 1.75rem;
 }
 
 blockquote h3:before {
@@ -55,6 +55,7 @@ blockquote h3:after {
   right: 0;
   font-family: 'Georgia';
 }
+
 
 
 
@@ -164,7 +165,7 @@ h6 {
   }
 }
 
-.card {
+.card , .vision {
   /* box-shadow: 5px 5px #88888899; */
   border-radius: 0.7em;
   height: 100%;
