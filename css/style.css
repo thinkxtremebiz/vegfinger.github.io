@@ -165,7 +165,8 @@ h6 {
   }
 }
 
-.card , .vision {
+.card,
+.vision {
   /* box-shadow: 5px 5px #88888899; */
   border-radius: 0.7em;
   height: 100%;
@@ -1111,7 +1112,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0.2em;
   box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.6);
 }
-.logomerge1 img{
+
+.logomerge1 img {
   opacity: 1;
   width: 100%;
   height: 140%;
@@ -1155,6 +1157,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 1.5em;
 }
 
+.short-div {
+  height: 45% !important;
+  margin-bottom: 20%;
+}
+
+.short-div .card {
+  height: 100%;
+}
 
 .short-div,
 .long-div {
