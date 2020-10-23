@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,14 +60,14 @@
 
 
 
-
+    <br><br><br><br><br>
     <main>
 
 
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="container card-container">
                         <img src="https://s5.postimg.cc/n8uucy6qv/strawberryx300n.png" alt="Strawberry"
                             class="img-fruit" />
@@ -111,7 +109,7 @@
                         <input class="ip-add-cart" type="button" value="Add to cart" />
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="container card-container">
                         <img src="https://s5.postimg.cc/n8uucy6qv/strawberryx300n.png" alt="Strawberry"
                             class="img-fruit" />
@@ -153,7 +151,7 @@
                         <input class="ip-add-cart" type="button" value="Add to cart" />
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="container card-container">
                         <img src="https://s5.postimg.cc/n8uucy6qv/strawberryx300n.png" alt="Strawberry"
                             class="img-fruit" />
@@ -212,19 +210,44 @@
         </div>
         <!-- End Credit -->
         <!--Buy Now whastapp button-->
-        <h1>Test</h1>
-        <br>
-        <br>
-        <a style="margin-left:50%;margin-top:70%;"  onclick="whatsapp_send()">Buy Now</a>
 
+        <br>
+        <br>
+
+        <br><br><br>
+        <div class="row">
+            <div class="panel col-md-8 col-sm-12 offset-md-2" style="float:left;">
+                <div class="text-center" style="background-color:  #D0F0C0; color: #000000;">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-2 col-sm-12">
+                            <h1 style="margin-left:-19%;">Cart</h1>
+                            <table id="table" class="table" style="width:80%;">
+
+
+                            </table>
+                            <br><br>
+                            <div class="row">
+                                <div class="col-md-6"> <b><label for="">Total Items: </label>
+                                        <span id="cart_items"></span></div></b>
+                                <div class="col-md-3 "> <b><label for="">Total Price:
+                                        </label>
+                                        <span id="cart_total">&#8377;</span></div></b>
+
+                            </div>
+                            <button class="btn btn-danger" style="margin-left:-18%;"><a onclick="whatsapp_send()">Buy
+                                    Now</a></button>
+                            <!-- <button class="button button1 btn btn-primary">
+                          Know more</button> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- cart -->
-    <table id="table">
-
-    </table>
-    <p id="cart_items"></p>
-    <p id="cart_total"></p>
-      <footer>
+    <br><br><br><br><br>
+    <footer>
         <section id="contact">
 
             <div class="container  wow fadeInUp">
@@ -308,7 +331,7 @@
             </ul>
         </section>
     </footer>
-    
+
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- JavaScript Libraries -->
@@ -329,62 +352,85 @@
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script>
-          var num = 1,
-    price = 7;
-    var userdict={'strawberry':{'quantity':0,'total':0},'apple':{'quantity':0,'total':0},'orange':{'quantity':0,'total':0}}
+        var num = 1,
+            price = 7;
+        var userdict = {
+            'strawberry': {
+                'quantity': 0,
+                'total': 0
+            },
+            'apple': {
+                'quantity': 0,
+                'total': 0
+            },
+            'orange': {
+                'quantity': 0,
+                'total': 0
+            }
+        }
 
-  function plus(id) {
-    var loc="span."+id+"_number";
-    var _num = parseInt($(loc).text()) + 1;
-    $(loc).text(_num);
-    userdict[id]['quantity']+=1;
-    updatePrice(_num, price,id);
-  }
+        function plus(id) {
+            var loc = "span." + id + "_number";
+            var _num = parseInt($(loc).text()) + 1;
+            $(loc).text(_num);
+            userdict[id]['quantity'] += 1;
+            updatePrice(_num, price, id);
+        }
 
-  function minus(id) {
+        function minus(id) {
 
-    var loc="span."+id+"_number";
-    var _num = parseInt($(loc).text()) - 1;
-    if (_num > -1)
-    {
-      $(loc).text(_num);
-      userdict[id]['quantity']-=1;
-      updatePrice(_num, price,id);}
-  }
+            var loc = "span." + id + "_number";
+            var _num = parseInt($(loc).text()) - 1;
+            if (_num > -1) {
+                $(loc).text(_num);
+                userdict[id]['quantity'] -= 1;
+                updatePrice(_num, price, id);
+            }
+        }
 
-  function updatePrice(num, price,id) {
-    var loc="."+id+"_amount";
-    $(loc).text(num * price);
-    userdict[id]['total']=num * price;
-    console.log(userdict)
-    document.getElementById('table').innerHTML=""
-    $("#table").append("<tr><th>Product</th><th>Quantity</th><th>Price</th></tr>");
-    var cart_total = 0
-    var cart_items = 0
-    for(var a in userdict){
-            console.log(a)
-            if (userdict[a]['quantity']>0){
-                cart_total+=userdict[a]['total']
-                cart_items+=userdict[a]['quantity']
-                $("#table").append("<tr><td>"+String(a)+"</td><td>"+String(userdict[a]['quantity'])+"</td><td>"+ String(userdict[a]['total'])+"</td></tr>");
-        }}
+        function updatePrice(num, price, id) {
+            var loc = "." + id + "_amount";
+            $(loc).text(num * price);
+            userdict[id]['total'] = num * price;
+            console.log(userdict)
+            document.getElementById('table').innerHTML = ""
+            $("#table").append(
+                "<tr class=\"thead-dark\"><th>#</th><th>Product</th><th>Quantity</th><th>Price</th></tr>");
+            var cart_total = 0
+            var cart_items = 0
+            var counter = 0
+            for (var a in userdict) {
 
-     document.getElementById('cart_total').innerHTML=String(cart_total)
-     document.getElementById('cart_items').innerHTML=String(cart_items)
-     
-  }
-  function whatsapp_send(){
-      message=''
-      for(var a in userdict){
-            if (userdict[a]['quantity']>0){
-               message +="Product name : "+String(a)+", Quantity : "+String(userdict[a]['quantity'])+", Price : "+ String(userdict[a]['total'])+"%0D%0A"
-        }}
-        console.log(message)
-        url="https://api.whatsapp.com/send/?phone=%2B919790995591&text="+message
-        window.open(url,'_blank')
-}
+                console.log(a)
+                if (userdict[a]['quantity'] > 0) {
+                    counter += 1;
+                    cart_total += userdict[a]['total']
+                    cart_items += userdict[a]['quantity']
+                    $("#table").append("<tr class=\"bg-light\"><td>" + String(counter) + "</td><td>" + String(a) +
+                        "</td><td>" + String(
+                            userdict[a]['quantity']) +
+                        "</td><td>" + String(userdict[a]['total']) + "</td></tr>");
+                }
+            }
+
+            document.getElementById('cart_total').innerHTML = String(cart_total)
+            document.getElementById('cart_items').innerHTML = String(cart_items)
+
+        }
+
+        function whatsapp_send() {
+            message = ''
+            for (var a in userdict) {
+                if (userdict[a]['quantity'] > 0) {
+                    message += "Product name : " + String(a) + ", Quantity : " + String(userdict[a]['quantity']) +
+                        ", Price : " + String(userdict[a]['total']) + "%0D%0A"
+                }
+            }
+            console.log(message)
+            url = "https://api.whatsapp.com/send/?phone=%2B919790995591&text=" + message
+            window.open(url, '_blank')
+        }
     </script>
 </body>
 
 </html>
->>>>>>> 5df6c1f45eff11bad1253797b6defe031515621a
