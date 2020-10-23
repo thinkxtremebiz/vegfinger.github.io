@@ -22,8 +22,11 @@ jQuery(document).ready(function ($) {
   });
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5df6c1f45eff11bad1253797b6defe031515621a
   // Mobile Navigation
   if ($('#nav-menu-container').length) {
     var $mobile_nav = $('#nav-menu-container').clone().prop({
