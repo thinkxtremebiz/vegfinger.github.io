@@ -194,7 +194,7 @@
         <br>
 
         <br><br><br>
-        <div class="container">
+        <div class="container hidden" id="cart">
             <div class="row">
                 <div class="panel col-12" style="float:left;">
                     <div class="text-center" style="background-color:  #D0F0C0; color: #000000;">
@@ -375,7 +375,7 @@
             var loc = "." + id + "_amount";
             $(loc).text(num * price);
             userdict[id]['total'] = num * price;
-            console.log(userdict)
+
             document.getElementById('table').innerHTML = ""
             $("#table").append(
                 "<tr class=\"thead-dark\"><th>#</th><th>Product</th><th>Quantity</th><th>Price</th></tr>");
@@ -384,7 +384,7 @@
             var counter = 0
             for (var a in userdict) {
 
-                console.log(a)
+
                 if (userdict[a]['quantity'] > 0) {
                     counter += 1;
                     cart_total += userdict[a]['total']
@@ -398,7 +398,11 @@
 
             document.getElementById('cart_total').innerHTML = String(cart_total)
             document.getElementById('cart_items').innerHTML = String(cart_items)
-
+            if (cart_items > 0) {
+                $("#cart").removeClass("hidden");
+            } else {
+                $("#cart").addClass("hidden");
+            }
         }
 
         function whatsapp_send() {
@@ -409,7 +413,7 @@
                         ", Price : " + String(userdict[a]['total']) + "%0D%0A"
                 }
             }
-            console.log(message)
+
             url = "https://api.whatsapp.com/send/?phone=%2B919790995591&text=" + message
             window.open(url, '_blank')
         }

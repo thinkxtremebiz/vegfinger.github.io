@@ -8,6 +8,10 @@
     height: 100%;
 }
 */
+.hidden {
+    display: none;
+}
+
 body {
     background: #ccc;
     font-family: "Libre Franklin", sans-serif;
