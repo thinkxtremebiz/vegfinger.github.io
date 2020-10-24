@@ -60,9 +60,11 @@ blockquote h3:after {
 
 
 .topleft img {
-  margin-top: -38%;
-  height: 280px;
-  width: 300px;
+  margin-top: -8%;
+  margin-left: -6% !important;
+
+  height: 90px;
+  width: 170px;
 }
 
 .verticalline {
