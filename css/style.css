@@ -69,6 +69,7 @@ blockquote h3:after {
 
 .verticalline {
   border-left: solid #00000099;
+  opacity: 0.3;
 }
 
 .images:hover {
@@ -1522,6 +1523,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 @media only screen and (max-width:375px) {
+  .verticalline {
+    display: none;
+  }
+
+  .phonelogo {
+    height: 90%;
+    width: 90%;
+  }
 
   html,
   body {
