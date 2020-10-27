@@ -1189,9 +1189,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100%;
 }
 
-.col-sm-12 {
+/* .col-sm-12 {
   margin-bottom: 7%;
-}
+} */
 
 .map {
   height: 20%;
@@ -1375,7 +1375,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-
+@media only screen and (min-width:768px) {
+  .playstore {
+    width: 50%;
+    height: 30%;
+  }
+}
 
 
 @media only screen and (max-width:768px) {
@@ -1384,6 +1389,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   body {
     max-width: 100%;
     overflow-x: hidden;
+  }
+
+  .playstore {
+    width: 100%;
+    height: 30%;
+  }
+
+  .phonelogo {
+    height: 100%;
   }
 
   .long-div {
