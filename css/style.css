@@ -1377,7 +1377,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media only screen and (min-width:768px) {
   .playstore {
-    width: 50%;
+    width: 40%;
     height: 30%;
   }
 }
